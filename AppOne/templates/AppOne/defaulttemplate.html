@@ -1,0 +1,27 @@
+<!--
+Author :    Marc Taron
+Version :   1.0
+Name :      AppOne/templates/AppOne/defaulttemplate.html
+Date :      XX/XX/XX
+
+Docstring : This file define the default template of AppOne
+-->
+
+{% extends 'AppOne/apponebase.html' %}
+
+<!-- Block in the <head> of apponebase.html -->
+{% block styles %}
+    <!-- Load something -->
+
+    <!-- Do not forget to load the static files -->
+	{% load static %}
+    <!-- Load the homepage css file -->
+    <link rel="stylesheet" type="text/css" href="{% static 'AppOne/css/apponedefaulttemplate.css' %}">
+
+{% endblock %}
+
+<!-- Block in the <body> of apponebase.html -->
+{% block AppOneTemplates %}
+    <!-- Definition of a specific template -->
+    <h1>Hello Mister GoodBoule !</h1>
+{% endblock %}

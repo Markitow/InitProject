@@ -1,0 +1,85 @@
+/*
+Author :    Marc Taron
+Version :   1.0
+Name :      AppOne/static/AppOne/css/apponebase.css
+Date :      XX/XX/XX
+
+Docstring : This file define the css style for apponebase.html
+*/
+
+/*
+Resources :
+Color choosing site : https://htmlcolorcodes.com/fr/
+Material Design : http://demo.viewflow.io/materialforms/pro/hospital/#!;
+Resizing textarea : https://www.impressivewebs.com/textarea-auto-resize/
+Icon : https://material.io/resources/icons/?style=baseline
+*/
+
+/* Definition of a default set of colors, margins, text sizes... available everywhere */
+:root{
+/* COLORS */
+  --primary-color: #039BE5;
+  --primary-dark-color: ;
+  --secondary-color: ;
+  --secondary-dark-color: ;
+  --blue-color: ;
+  --blue-dark-color: ;
+  --white-color: white;
+  --white-dark-color: ;
+  --black-color: black: ;
+  --black-dark-color: ;
+
+/* MARGIN/PADDING */
+  --small-margin: ;
+  --medium-margin: ;
+  --large-margin: ;
+  --small-padding: ;
+  --medium-padding: ;
+  --large-padding: ;
+
+/* SIZE */
+  --small-size: ;
+  --medium-size: ;
+  --large-size: ;
+
+/* TEXT SIZE */
+  --small-size-text: ;
+  --medium-size-text: ;
+  --large-size-text: ;
+
+/* BORDER */
+  --form-border: solid 1px var(--black-color);
+
+/* SHADOW */
+  --background-shadow: 3px 3px 3px var(--grey-color), -3px -3px 3px var(--grey-color);
+
+/*
+Definition of a default set of color, size... when apponvevar is set to "apponevarvalue'
+*/
+[apponevar = "apponevarvalue"] {
+/* COLORS */
+  --primary-color: #039BE5;
+  --primary-dark-color: #008dd1;
+  --secondary-color: ;
+  --secondary-dark-color: ;
+  --blue-color:  #85C1E9;
+  --blue-dark-color: #FFA000;
+  --white-color: white;
+  --white-dark-color: ;
+  --black-color: black;
+  --black-dark-color: ;
+}
+
+/*
+****************************************************************************
+ELEMENT IN PAGE
+****************************************************************************
+*/
+
+.class{
+
+}
+
+#id{
+
+}
